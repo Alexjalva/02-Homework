@@ -5,6 +5,8 @@ The Horiseon landing page needs to look clean, be accessible, and be functional.
 The sections are set up such that the user can arrive on the page, quickly find and use any navigation as needed at the top, or scroll down to find the information logically laid out. 
 Sections are appropriately labeled with semantic tags in the HTML and alt text is provided for any images that would otherwise provide the text on screen. 
 
+https://alexjalva.github.io/Horiseon-Landing-Page-Refactoring/
+
 ##Installation
 
 All files needed are contained within the repository. The main folder needs to include the assets folder and the index.html file. As long as all files are included, and placed in that order, the html should be able to find the images based on relative path. 
@@ -12,6 +14,15 @@ All files needed are contained within the repository. The main folder needs to i
 ##Usage
 
 Webpage can be loaded based off of html in main repository. 
+
+The header is displayed with a list of 3 header elements. Clicking on any of the 3 will move the user to that section further down on the page. 
+```md
+![Header Usage](assets/images/Header-Screenshot.png)
+```
+The information and benefits are displayed as in the screenshot. Each of those h2s corresponds to one of the clicks from the header above. Other benefits information is displayed in the aside. 
+```md
+![Sections Display](assets/images/Sections-Screenshot.png)
+```
 
 ##Credits
 Original page was created by Trilogy education.
